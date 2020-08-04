@@ -25,9 +25,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.25,
+          "width": 1.25
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -47,7 +47,18 @@
           "width": 0.2
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|79386800|87035600|8a034158-e2be-4a89-a0cc-5b104b5eea58|ed68e6dd-df9f-48cf-acf4-8ae944f46b20",
+        "clearance|80575000|87025000|41a43e9a-2eb5-4ae5-976a-0579c3b4082b|ed68e6dd-df9f-48cf-acf4-8ae944f46b20",
+        "clearance|81640000|87030000|dfed9d5d-1601-4b48-a816-f28cc4d9929d|ed68e6dd-df9f-48cf-acf4-8ae944f46b20",
+        "clearance|83840000|87030000|cc931cab-9ac0-4169-8ce8-f1b8f132d4b7|b362f56f-2bcf-4966-8427-08bdc125396e",
+        "clearance|85537500|87012500|1837d6a8-c6a3-45cc-9fcc-a6c352fc3639|b362f56f-2bcf-4966-8427-08bdc125396e",
+        "clearance|85537500|87012500|1b8e8681-6cfa-4ea8-b905-bc3f46a88ed1|b362f56f-2bcf-4966-8427-08bdc125396e",
+        "clearance|85537500|87012500|2a7faf7a-2867-4540-a70e-807c0354c72e|b362f56f-2bcf-4966-8427-08bdc125396e",
+        "clearance|85537500|87012500|b9bf29fd-d58f-418f-af6d-b6c3d0843db6|b362f56f-2bcf-4966-8427-08bdc125396e",
+        "clearance|85537500|87012500|f5ea473a-04ce-4c6f-82d5-66e44d8c71c1|b362f56f-2bcf-4966-8427-08bdc125396e",
+        "clearance|86368000|87987500|f62c3307-593b-444e-921a-27f17dc48968|b362f56f-2bcf-4966-8427-08bdc125396e"
+      ],
       "meta": {
         "version": 0
       },
@@ -87,13 +98,13 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.2032,
         "min_copper_edge_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.127,
+        "min_track_width": 0.15239999999999998,
         "min_via_annulus": 0.13,
         "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0508,
@@ -120,6 +131,10 @@
         {
           "diameter": 0.6,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
         },
         {
           "diameter": 0.8,
@@ -373,7 +388,7 @@
   },
   "sheets": [
     [
-      "5a90dac1-15bd-4a12-97df-db23ca35d5d0",
+      "744558d6-0a3d-4ccc-8fd3-0a8e1a7bc345",
       ""
     ]
   ],
